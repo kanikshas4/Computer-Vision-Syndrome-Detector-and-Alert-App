@@ -1,6 +1,7 @@
 import streamlit as st
 from streamlit_webrtc import webrtc_streamer, VideoTransformerBase, RTCConfiguration, VideoProcessorBase, WebRtcMode
 from streamlit_webrtc import webrtc_streamer, VideoTransformerBase,VideoProcessorBase
+from  PIL import Image
 import cv2
 from datetime import datetime, timedelta
 import av
